@@ -62,6 +62,11 @@
             bindings = <&kp LS(LA(LC(LEFT_GUI)))>;
             key-positions = <19 22>;
         };
+
+        new_combo {
+            bindings = <&kp ESC>;
+            key-positions = <16 19>;
+        };
     };
 
     behaviors {
