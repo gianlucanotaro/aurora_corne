@@ -22,16 +22,18 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
+            flavor = "hold-preferred";
         };
         letter_mod: letter_mod {
             compatible = "zmk,behavior-hold-tap";
             label = "LETTER_MOD";
             bindings =
-                <&kp>,
-                <&mo>;
+                <&mo>,
+                <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
+            flavor = "hold-preferred";
         };
     };
 
@@ -46,10 +48,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q                          &kp W                      &kp E                      &kp R                        &kp T    &kp Y  &kp U                         &kp I                       &kp O                       &kp P                                   &none
-&none  &letter_letter A LEFT_CONTROL  &letter_letter S LEFT_GUI  &letter_letter D LEFT_ALT  &letter_letter F LEFT_SHIFT  &kp G    &kp H  &letter_letter J RIGHT_SHIFT  &letter_letter K RIGHT_ALT  &letter_letter L RIGHT_GUI  &letter_letter SEMICOLON RIGHT_CONTROL  &none
-&none  &kp Z                          &kp X                      &kp C                      &kp V                        &kp B    &kp N  &kp M                         &kp COMMA                   &kp DOT                     &kp FSLH                                &none
-                                                                 &letter_letter TAB ESCAPE  &letter_mod BACKSPACE 4      &mo 1    &mo 2  &letter_mod SPACE 3           &kp ENTER
+&none  &kp Q                          &kp W                       &kp E                      &kp R                        &kp T    &kp Y  &kp U                        &kp I                       &kp O                       &kp P                                   &none
+&none  &letter_letter LEFT_CONTROL A  &letter_letter RIGHT_GUI S  &letter_letter LEFT_ALT D  &letter_letter LEFT_SHIFT F  &kp G    &kp H  &letter_letter LEFT_SHIFT J  &letter_letter RIGHT_ALT K  &letter_letter RIGHT_GUI L  &letter_letter RIGHT_CONTROL SEMICOLON  &none
+&none  &kp Z                          &kp X                       &kp C                      &kp V                        &kp B    &kp N  &kp M                        &kp COMMA                   &kp DOT                     &kp FSLH                                &none
+                                                                  &letter_letter TAB ESCAPE  &letter_mod 4 BACKSPACE      &mo 1    &mo 2  &letter_mod 4 SPACE          &kp ENTER
             >;
         };
 
