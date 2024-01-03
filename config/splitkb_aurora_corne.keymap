@@ -81,7 +81,7 @@
 &kp TAB    &kp LESS_THAN     &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp LEFT_PARENTHESIS   &kp QUESTION     &kp EQUAL  &kp EXCLAMATION  &kp HASH              &kp DOLLAR    &kp PERCENT  &kp BSPC
 &kp LCTRL  &kp GREATER_THAN  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp AMPERSAND    &kp PLUS   &kp CARET        &kp SLASH             &kp ASTERISK  &kp BSLH     &kp GRAVE
 &kp LSHFT  &trans            &trans           &trans             &kp TILDE              &kp PIPE         &kp MINUS  &kp UNDERSCORE   &kp NON_US_BACKSLASH  &kp RBRC      &kp PIPE     &kp TILDE
-                                              &kp LGUI           &trans                 &kp SPACE        &kp RET    &trans           &kp RALT
+                                              &kp LGUI           &trans                 &kp SPACE        &none      &trans           &kp RALT
             >;
         };
 
